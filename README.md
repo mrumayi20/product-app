@@ -1,12 +1,95 @@
-# React + Vite
+# 🛍️ React Product App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, beginner-friendly product listing app built using **React + Vite**, styled with CSS — includes components with inputs/outputs, a service layer using Observables, and dynamic routing.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
 
-## Expanding the ESLint configuration
+### 🧾 Product List Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Product List](./screenshots/product-list.png)
+
+### 📦 Product Detail Page
+
+![Product Detail](./screenshots/product-detail.png)
+
+---
+
+## 📦 Installation Dependencies
+
+This project uses the following dependencies:
+
+```bash
+
+npm install
+npm install react-router-dom
+npm install rxjs
+
+```
+
+---
+
+## ▶️ Start Development Server
+
+```bash
+npm run dev
+```
+
+Then open the app in your browser:
+
+```
+http://localhost:5173/products
+```
+
+---
+
+## 🗃️ Project Structure
+
+```
+react-product-app/
+├── public/                   # Static assets
+├── src/
+│   ├── components/           # UI components
+│   │   ├── ProductCard.jsx
+│   │   ├── ProductList.jsx
+│   │   └── ProductDetail.jsx
+│   ├── data/                 # Static product data
+│   │   └── products.json
+│   ├── services/             # service using RxJS
+│   │   └── ProductService.js
+│   ├── styles/               # CSS files per component
+│   │   ├── ProductCard.css
+│   │   ├── ProductList.css
+│   │   └── ProductDetail.css
+│   ├── App.jsx               # Route configuration
+│   ├── main.jsx              # App entry point
+│   └── index.css             # Global styles
+├── .gitignore
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md                 # This file!
+```
+
+---
+
+## 🎯 Features
+
+- ✅ Product card components with dynamic data binding
+- ✅ Emits click events from components to parent (`onClick`)
+- ✅ Angular-style `ProductService` with RxJS Observables
+- ✅ Route-based navigation:
+  - `/products` — Product List
+  - `/products/:id` — Product Details
+- ✅ Fully responsive layout with soft pink aesthetic
+- ✅ Beginner-friendly code and structure
+
+---
+
+---
+
+## 🙌 Author
+
+Built by Mrunmayi <br>
+mrunmayirpatil@gmail.com
