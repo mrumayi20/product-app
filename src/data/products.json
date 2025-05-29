@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Yoga Mat",
+    "price": 35,
+    "description": "Eco-friendly, non-slip mat for yoga and fitness routines"
+  },
+  {
+    "id": 2,
+    "name": "Coffee Grinder",
+    "price": 90,
+    "description": "Electric burr grinder with adjustable settings for fresh ground coffee"
+  },
+  {
+    "id": 3,
+    "name": "Desk Lamp",
+    "price": 45,
+    "description": "Minimalist LED lamp with touch control and adjustable brightness"
+  },
+  {
+    "id": 4,
+    "name": "Board Game - Catan",
+    "price": 60,
+    "description": "Award-winning strategy board game for 3-4 players"
+  },
+  {
+    "id": 5,
+    "name": "Indoor Plant - Snake Plant",
+    "price": 25,
+    "description": "Low-maintenance air-purifying plant in a ceramic pot"
+  },
+  {
+    "id": 6,
+    "name": "Leather Journal",
+    "price": 20,
+    "description": "Handcrafted journal with lined pages for writing and sketching"
+  }
+]
